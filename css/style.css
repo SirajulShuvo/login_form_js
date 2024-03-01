@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/pexels-moose-photos-1037992.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden!important;
+}
+.form-box{
+    width: 50%;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.form-box h1{
+    color: green;
+    font-size: 2rem;
+}
+.form-box .underline{
+    width: 30px;
+    height: 4px;
+    background-color: green;
+    border-radius: 20px;
+    margin: 15px auto;
+    transition: transform ease-in-out 0.5s;
+}
+.input-box{
+    height: 300px;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e1e1;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: none;
+   max-height: 50px;
+   transition: max-height ease-in-out 0.5s;
+    overflow: hidden;
+    outline: none;
+}
+.input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px 10px;
+}
+.input-field span{
+    margin-left: 10px;
+    color: #999;
+}
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.input-box a{
+    text-decoration: none;
+    color: green!important;
+}
+.input-box a:hover{
+    text-decoration: underline;
+}
+.button-group button{
+    width: 45%;
+    background-color: green;
+    padding: 20px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+button.disabled{
+    background-color: #eaeaea!important;
+    color: black!important;
+    transition: height ease-in-out 1s;
+}
+@media screen and(max-width:600px) {
+    .form-box{
+        width: 100%;
+        padding: 30px 0!important;
+    }
+}
