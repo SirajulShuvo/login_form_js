@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/pexels-moose-photos-1037992.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/img/background.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden!important;
